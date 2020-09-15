@@ -22,3 +22,4 @@ class UserListView(generics.ListAPIView):
 class UserDetailView(generics.RetrieveAPIView):
     queryset = User.objects.all()
     serializer_class = UserCreateSerializer
+    
